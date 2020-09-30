@@ -1,18 +1,3 @@
-
-:root{
-  --color-destak-ligth: #FFC107;
-  --color-destak-attention: #ffa000;
-  --color-destak-dark: #C97500;
-  --color-base-scale-1: #0B3073;
-  --color-base-scale-2: #0C527D;
-  --color-base-scale-3: #0F5B65;
-  --color-base-scale-4: #0C7D6B;
-  --color-base-scale-4: #0B7345;
-  --color-grey-scale-1: #212121;
-  --color-grey-scale-2: #757575;
-  --color-grey-scale-3: #BDBDBD;
-}
-
 .bg-login-image {
   background-image: url("../../img/undraw_profile_pic_ic5t.svg");
 }
@@ -26,9 +11,9 @@
 }
 
 .big-box h1{
-  color: var(--color-grey-scale-3);
+  color: var(--color-grey-scale-4);
 }
 
 .big-box, .txt-simple1, label{
-  color: var(--color-grey-scale-2);
+  color: var(--color-grey-scale-3);
 }

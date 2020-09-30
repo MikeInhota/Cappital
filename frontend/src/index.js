@@ -13,12 +13,12 @@ import'bootstrap/dist/css/bootstrap.css';
 ReactDOM.render(
     <BrowserRouter>
         <Switch>
-            {/* <Route path="/" exact={true} component={App} /> */}
+            <Route path="/landingpage" exact={true} component={App} />
             <Route path="/" exact={true} component={Login} />
             <Route path="/register" exact={true} component={Register} />
             <Route path="/main" exact={true} component={Main} />
-            {/* <Route path="/about" component={About} />
-            <Route path="*" component={E404} /> */}
+            <Route path="/about" component={About} />
+            <Route path="*" component={E404} />
         </Switch>
     </ BrowserRouter>
     , document.getElementById('root'));

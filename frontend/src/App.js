@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
-import ImgUser from './img/undraw_profile_pic_ic5t.svg';
 
 class App extends Component {
   render() {
