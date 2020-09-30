@@ -20,3 +20,15 @@
 .btn-user{
   background-color: var(--color-base-scale-1);
 }
+
+.big-box{
+  background-color: var(--color-base-scale-1);
+}
+
+.big-box h1{
+  color: var(--color-grey-scale-3);
+}
+
+.big-box, .txt-simple1, label{
+  color: var(--color-grey-scale-2);
+}

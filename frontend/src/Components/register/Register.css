@@ -1,0 +1,9 @@
+
+.big-box{
+    background-color: var(--color-base-scale-1);
+}
+
+.bg-register-image {
+    background-image: url("../../img/placeholder01-unsplash.jpg");
+    
+  }

@@ -9,33 +9,37 @@ class App extends Component {
       <div className="App">
         <header>
           <nav className="navbar navbar-expand-lg fixed-top font-nav bg-tranparent-nav">
-            <a className="navbar-brand nav-scroll" href="#page-top" id="link-logo"><img className="logo-size" src={""} alt="Logo Cappital"></img></a>
-            <button className="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+            <button className="navbar-brand nav-scroll btn btn-ligth" href="#page-top" id="link-logo"><img className="logo-size" src={""} alt="Logo Cappital"></img></button>
+            <button className="navbar-toggler custom-toggler btn btn-ligth" type="button" data-toggle="collapse" data-target="#navbarSite">
               <span className="navbar-toggler-icon mx-auto"></span></button>
 
             <div className="collapse navbar-collapse" id="navbarSite">
 
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <a className="nav-link nav-scroll" href="#sobre">Sobre</a>
+                  <button className="nav-link nav-scroll btn btn-ligth" href="#sobre">Sobre</button>
                 </li>
                 <li className="nav-item dropdown">
 
-                  <a className="nav-link dropdown-toggle nav-scroll" href="#drop" data-toggle="dropdown" id="navDrop">Serviços</a>
+                  <button className="nav-link dropdown-toggle nav-scroll btn btn-ligth" href="#drop" data-toggle="dropdown" id="navDrop">Serviços</button>
 
                   <div className="dropdown-menu">
-                    <a className="dropdown-item" href="#endividados">Para endividados</a>
-                    <a className="dropdown-item" href="#financeiro">Para controle financeiro</a>
+                    <button className="dropdown-item btn btn-ligth" href="#endividados">Para endividados</button>
+                    <button className="dropdown-item btn btn-ligth" href="#financeiro">Para controle financeiro</button>
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link nav-scroll" href="#contato">Contato</a>
+                  <button className="nav-link nav-scroll btn btn-ligth" href="#contato">Contato</button>
                 </li>
               </ul>
-              <button className="btn btn-ligth"><Link to="/login">Entrar</Link></button>
+              <Link to="/login" className="btn btn-ligth">Entrar</Link>
             </div>
           </nav>
         </header>
+
+        <div className="linha">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum vero ipsa, mollitia, eveniet saepe illo quo asperiores eligendi tempore odio accusamus ut consequuntur sit eum, vitae praesentium eos reiciendis id?</p>
+        </div>
 
         <section id="landing-home">
           <div className="container-fluid">

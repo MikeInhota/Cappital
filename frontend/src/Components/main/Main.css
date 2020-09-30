@@ -1,0 +1,33 @@
+.side-bar{
+    background-color: var(--color-base-scale-1);
+    color: var(--color-grey-scale-4);
+    height: 100vh;
+}
+
+.main{
+    height: 100vh;
+    padding: 0px !important;
+}
+
+.main-card{
+    min-height: 15vh;
+    background-image: url('../../img/nature01.jpg');
+    background-position: center;
+}
+
+.cartoes{
+    padding: 0.25rem;
+}
+.card-body{
+    padding: 0.5rem !important;
+}
+
+.meio-card{
+    display: flex;
+    justify-content: space-around !important;
+}
+
+.widgets{
+    display: flex;
+    justify-content: flex-end;
+}

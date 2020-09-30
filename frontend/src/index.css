@@ -13,10 +13,15 @@
   --color-grey-scale-1: #212121;
   --color-grey-scale-2: #757575;
   --color-grey-scale-3: #BDBDBD;
+  --color-grey-scale-4: #ededed;
 }
 
 .title{
   font-family: 'Nunito', sans-serif;
+}
+
+.general-text{
+  font-family: 'Lato', sans-serif;
 }
 
 body {
