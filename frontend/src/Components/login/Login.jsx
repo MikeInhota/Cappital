@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Login.css';
 import { Link } from 'react-router-dom';
+
 class Login extends Component {
   render() {
     return (
@@ -11,7 +12,8 @@ class Login extends Component {
               <div className="card o-hidden border-0 shadow-lg my-5">
                 <div className="card-body p-0 big-box">
                   <div className="row">
-                    <div className="col-lg-6 d-none d-lg-block bg-login-image"></div> {/* Aqui tá a imagem */}
+                    <div className="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                    {/* Aqui tá a imagem */}
                     <div className="col-lg-6">
                       <div className="p-5">
                         <div className="text-center">
@@ -37,7 +39,7 @@ class Login extends Component {
                         </form>
                         <hr></hr>
                         <div className="text-center">
-                          <a className="small txt-simple1" href="forgot-password.html">Esqueceu a senha?</a>
+                          {/* <a className="small txt-simple1" href="forgot-password.html">Esqueceu a senha?</a> */}
                         </div>
                         <div className="text-center">
                           <a className="small txt-simple1" href="register.html"><Link to='/register'>Crie sua conta!</Link></a>
