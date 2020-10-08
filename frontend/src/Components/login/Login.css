@@ -1,19 +1,5 @@
 .bg-login-image {
-  background-image: url("../../img/undraw_profile_pic_ic5t.svg");
-}
-
-.btn-user{
-  background-color: var(--color-base-scale-1);
-}
-
-.big-box{
-  background-color: var(--color-base-scale-1);
-}
-
-.big-box h1{
-  color: var(--color-grey-scale-4);
-}
-
-.big-box, .txt-simple1, label{
-  color: var(--color-grey-scale-3);
+  background-image: url("../../img/placeholder03-unsplash.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }

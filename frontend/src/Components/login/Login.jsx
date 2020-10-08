@@ -11,7 +11,7 @@ class Login extends Component {
               <div className="card o-hidden border-0 shadow-lg my-5">
                 <div className="card-body p-0 big-box">
                   <div className="row">
-                    <div className="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                    <div className="col-lg-6 d-none d-lg-block bg-login-image"></div> {/* Aqui tá a imagem */}
                     <div className="col-lg-6">
                       <div className="p-5">
                         <div className="text-center">
@@ -30,10 +30,10 @@ class Login extends Component {
                               <label className="custom-control-label" for="customCheck">Lembre-se de mim.</label>
                             </div>
                           </div>
-                          <a href="index.html" className="btn btn-block txt-simple1">Entrar</a>
+                          <button className="btn-block btn-base btn-entrar" type="button">Entrar</button>
                           <hr></hr>
-                          <a href="index.html" className="btn btn-google btn-user btn-block"><i className="fab fa-google fa-fw"></i> Entrar com Google</a>
-                          <a href="index.html" className="btn btn-facebook btn-user btn-block"><i className="fab fa-facebook-f fa-fw"></i> Entrar com Facebook</a>
+                          <button className="btn-block btn-base btn-google" type="button">Entrar com Google</button>
+                          <button className="btn-block btn-base btn-facebook" type="button">Entrar com Facebook</button>
                         </form>
                         <hr></hr>
                         <div className="text-center">
@@ -41,9 +41,6 @@ class Login extends Component {
                         </div>
                         <div className="text-center">
                           <a className="small txt-simple1" href="register.html"><Link to='/register'>Crie sua conta!</Link></a>
-                        </div>
-                        <div className="text-center">
-                          <button type="button " className="btn btn-sm"><Link to="/">Inicio</Link></button>
                         </div>
                       </div>
                     </div>

@@ -9,19 +9,12 @@
   --color-base-scale-2: #0C527D;
   --color-base-scale-3: #0F5B65;
   --color-base-scale-4: #0C7D6B;
-  --color-base-scale-4: #0B7345;
+  --color-base-scale-5: #0B7345;
   --color-grey-scale-1: #212121;
   --color-grey-scale-2: #757575;
   --color-grey-scale-3: #BDBDBD;
   --color-grey-scale-4: #ededed;
-}
-
-.title{
-  font-family: 'Nunito', sans-serif;
-}
-
-.general-text{
-  font-family: 'Lato', sans-serif;
+  --color-bkg-bisque: #ffe4c4;
 }
 
 body {
@@ -30,3 +23,48 @@ body {
   font-family: 'Lato',sans-serif;
 }
 
+.App {
+  background-color: var(--color-bkg-bisque);
+  min-height: 100vh;
+}
+.title{
+  font-family: 'Nunito', sans-serif;
+}
+
+.general-text{
+  font-family: 'Lato', sans-serif;
+}
+
+.big-box{
+  background-color: var(--color-base-scale-2);
+}
+
+.big-box h1{
+  color: var(--color-grey-scale-4);
+}
+
+.big-box, .txt-simple1, label{
+  color: var(--color-grey-scale-3);
+}
+
+.btn-base{
+  color: var(--color-grey-scale-4);
+  border-radius: 0.3rem;
+  border-color: transparent;
+}
+
+.btn-base:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-entrar{
+  background-color: var(--color-base-scale-4);
+}
+
+.btn-google{
+  background-color: #1166e8; /*#4c89e3 azul-claro, #1166e8 azul-escuro, #da4d39 vermelho, cor padrão do botão escuro do google*/
+}
+
+.btn-facebook{
+  background-color: #3b5998; /* #3b5998 cor padrão do botão do facebook*/
+}
