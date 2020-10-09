@@ -1,41 +1,47 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "./Main.css";
 import { Link } from "react-router-dom";
+import { Modal, Button } from "react-bootstrap";
+
 import Sidebar from "./SideBar";
 import Navbar from "./NavBar";
 import MainCard from "./MainCard";
-import CardContainer from "./CardContainer";
+import CardCurrentBalance from "./CardCurrentBalance";
+import ModalBalance from "./ModalBalance";
 
-class Main extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="container-fluid">
-          <div className="row">
-            <Sidebar />
+const Main = (props) => {
+  const [modalShow, setModalShow] = React.useState(false);
 
-            <div className="main col-md">
-              <Navbar />
+  return (
+    <div className="App">
+      <div className="container-fluid">
+        <div className="row">
+          <Sidebar />
 
-              <MainCard />
+          <div className="main col-md">
+            <Navbar />
 
-              <CardContainer />
+            <MainCard />
 
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Dolorum sunt alias quis perspiciatis necessitatibus modi sit
-                beatae doloribus, facere provident atque cum, perferendis odit
-                dicta vitae quos voluptatibus ea voluptatum.
-              </p>
-              <p className="App-intro">
-                <Link to="/">Ir para a página Login </Link>Main!
-              </p>
-            </div>
+            <a onClick={() => setModalShow(true)}>
+              <CardCurrentBalance />
+            </a>
+            <ModalBalance show={modalShow} onHide={() => setModalShow(false)} />
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              sunt alias quis perspiciatis necessitatibus modi sit beatae
+              doloribus, facere provident atque cum, perferendis odit dicta
+              vitae quos voluptatibus ea voluptatum.
+            </p>
+            <p className="App-intro">
+              <Link to="/">Ir para a página Login !!</Link>
+            </p>
           </div>
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Main;

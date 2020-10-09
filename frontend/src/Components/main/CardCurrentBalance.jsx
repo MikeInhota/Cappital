@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Main.css";
 
-class Sidebar extends Component {
+class CardCurrentBalance extends Component {
   render() {
     return (
       <>
@@ -31,4 +31,4 @@ class Sidebar extends Component {
   }
 }
 
-export default Sidebar;
+export default CardCurrentBalance;

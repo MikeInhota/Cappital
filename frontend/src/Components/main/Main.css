@@ -12,7 +12,7 @@
 .main-card{
     min-height: 15vh;
     background-image: url('../../img/nature01.jpg');
-    background-position: center;
+    background-position: center top;
 }
 
 .cartoes{

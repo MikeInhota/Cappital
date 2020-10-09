@@ -1,9 +1,19 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "./Register.css";
 import { Link } from "react-router-dom";
 
-class Register extends Component {
-  render() {
+const Register = (props) => {
+  const [fstName, setFstname] = useState();
+  const [lstName, setLstname] = useState();
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
+  const [passwordConf, setPasswordConf] = useState();
+
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+    const person = {fstName, lstName, email, password, passwordConf};
+  }
+
     return (
       <div className="App">
         <div className="container">
@@ -21,54 +31,59 @@ class Register extends Component {
                             Crie sua conta!
                           </h1>
                         </div>
-                        <form className="user">
+                        <form className="user" onSubmit={handleSubmit}>
                           <div className="form-group row">
                             <div className="col-sm-6 mb-3 mb-sm-0">
                               <input
+                                value={fstName}
                                 type="text"
                                 className="form-control form-control-user"
-                                id="exampleFirstName"
                                 placeholder="Primeiro Nome"
+                                onChange={(e) => setFstname(e.target.value)}
                               ></input>
                             </div>
                             <div className="col-sm-6">
                               <input
+                              value={lstName}
                                 type="text"
                                 className="form-control form-control-user"
-                                id="exampleLastName"
                                 placeholder="Sobrenome"
+                                onChange={(e) => setLstname(e.target.value)}
                               ></input>
                             </div>
                           </div>
                           <div className="form-group">
                             <input
+                              value={email}
                               type="email"
                               className="form-control form-control-user"
-                              id="exampleInputEmail"
                               placeholder="Email"
+                              onChange={(e) => setEmail(e.target.value)}
                             ></input>
                           </div>
                           <div className="form-group row">
                             <div className="col-sm-6 mb-3 mb-sm-0">
                               <input
+                                value={password}
                                 type="password"
                                 className="form-control form-control-user"
-                                id="exampleInputPassword"
                                 placeholder="Senha"
+                                onChange={(e) => setPassword(e.target.value)}
                               ></input>
                             </div>
                             <div className="col-sm-6">
                               <input
+                              value={passwordConf}
                                 type="password"
                                 className="form-control form-control-user"
-                                id="exampleRepeatPassword"
                                 placeholder="Repita a Senha"
+                                onChange={(e) => setPasswordConf(e.target.value)}
                               ></input>
                             </div>
                           </div>
                           <button
                             className="btn-block btn-base btn-entrar"
-                            type="button"
+                            type="submit"
                           >
                             Registrar-se agora
                           </button>
@@ -105,7 +120,6 @@ class Register extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default Register;
