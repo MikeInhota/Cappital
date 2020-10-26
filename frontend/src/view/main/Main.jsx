@@ -6,7 +6,7 @@ import Navbar from "./NavBar";
 import MainCard from "./MainCard";
 import CardCurrentBalance from "./CardCurrentBalance";
 import ModalBalance from "./ModalBalance";
-import ObjetiveCard from "./ObjectiveCard";
+import GraficData from "../../Components/GraficData/GraficData";
 
 const Main = (props) => {
 const [modalShow, setModalShow] = React.useState(false);
@@ -27,7 +27,7 @@ return (
             <ModalBalance show={modalShow} onHide={()=> setModalShow(false)} />
               <p className="App-intro">
                   <div className="main col-sm">
-                    <ObjetiveCard />
+                    <GraficData />
                   </div>
                 <Link to="/">Ir para a página Login !!</Link>
               </p>
