@@ -7,7 +7,7 @@ class Sidebar extends Component {
     return (
       <>
         <div className="side-bar col-md-1">
-              <span class="material-icons">payments</span>
+              <span className="material-icons">payments</span>
               <hr></hr>
         </div>
       </>

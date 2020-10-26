@@ -4,7 +4,7 @@ import "./Main.css";
 class MainCard extends Component {
   render() {
     return (
-      <>
+      <div>
         <div className="card bg-dark text-white main-card">
           <div className="card-img-overlay">
             <div className="row">
@@ -13,12 +13,12 @@ class MainCard extends Component {
                 <p className="card-text">De boa na lagoa?</p>
               </div>
               <div className="widgets col-sm">
-                <p className="card-text">Icones de hora e blablabla!</p>
+                <p className="card-text">Exibe a data e hora do sistema.</p>
               </div>
             </div>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }

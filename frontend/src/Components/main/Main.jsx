@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Main.css";
 import { Link } from "react-router-dom";
-import { Modal, Button } from "react-bootstrap";
 
 import Sidebar from "./SideBar";
 import Navbar from "./NavBar";

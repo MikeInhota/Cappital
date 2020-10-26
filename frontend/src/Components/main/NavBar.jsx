@@ -18,7 +18,7 @@ class Navbar extends Component {
             </button>
           </form>
           <a className="navbar-brand">
-            <span class="material-icons">account_circle</span>
+            <span className="material-icons">account_circle</span>
           </a>
         </nav>
       </>

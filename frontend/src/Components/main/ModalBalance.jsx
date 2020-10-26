@@ -1,6 +1,10 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
+import RadioButton from "../RadioButton/RadioButton";
+import Label from '../Label/label';
+import InputText from "../InputText/inputText";
 
+const titulo = 'entrada'
 const ModalBalance = (props) => {
   return (
     <Modal
@@ -15,14 +19,30 @@ const ModalBalance = (props) => {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        {/* <form>
-          <input TYPE="RADIO" NAME="OPCAO" VALUE="op1">opção1</input>
-          <input TYPE="RADIO" NAME="OPCAO" VALUE="op2">opção2</input>
-        </form> */}
-        <p>Teste Formulário que quebra apagina ¬¬  </p>
+        <div>
+        <form>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm">
+              <InputText id="inputEntrada" name="inputEntrada" value="Digite o valor"/>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm">
+                <RadioButton id="Entrada" name="Entrada" value="Entrada"/>
+                <Label for="Entrada" label="entrada"/><br/>
+            </div>
+            <div className="col-sm">
+                <RadioButton id="Saida" name="Saida" value="Saida"/>
+                <Label for="Saida" label="Saida"/>
+            </div>
+          </div>
+        </div>
+        </form>
+        </div>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={props.onHide}>Gravar</Button>
       </Modal.Footer>
     </Modal>
   );
