@@ -6,7 +6,7 @@ class ObjectiveCard extends Component {
     return (
       <>
         <div className="container cartoes">
-          <div className="col-xl-2 col-md-4 mb-3">
+          <div className="col-xl-5 col-md-10 mb-5">
             <div className="card shadow h-100">
               <div className="card-body">
                 <div className="row no-gutters align-items-center meio-card">

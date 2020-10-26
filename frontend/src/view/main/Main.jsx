@@ -18,28 +18,25 @@ return (
       <Sidebar />
       <div className="container">
         <div className="row">
-          <div className="col-sm">
-            <div className="main col-md">
-              <Navbar />
-              <MainCard />
-              <a onClick={()=> setModalShow(true)}>
-                <CardCurrentBalance />
-              </a>
-              <ModalBalance show={modalShow} onHide={()=> setModalShow(false)} />
-                <p className="App-intro">
-                  <Link to="/">Ir para a página Login !!</Link>
-                </p>
+          <div className="main col-sm">
+            <Navbar />
+            <MainCard />
+            <a onClick={()=> setModalShow(true)}>
+              <CardCurrentBalance />
+            </a>
+            <ModalBalance show={modalShow} onHide={()=> setModalShow(false)} />
+              <p className="App-intro">
+                  <div className="main col-sm">
+                    <ObjetiveCard />
+                  </div>
+                <Link to="/">Ir para a página Login !!</Link>
+              </p>
           </div>
-          <div class="col-sm">
-            <div className="main col-md">
-              <ObjetiveCard />
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
   </div>
-</div>
 </div>
 );
 };
