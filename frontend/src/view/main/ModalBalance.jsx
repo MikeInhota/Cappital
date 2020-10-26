@@ -1,8 +1,8 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
-import RadioButton from "../RadioButton/RadioButton";
-import Label from '../Label/label';
-import InputText from "../InputText/inputText";
+import RadioButton from "../../Components/RadioButton/RadioButton";
+import Label from '../../Components/Label/label';
+import InputText from "../../Components/InputText/inputText";
 
 const titulo = 'entrada'
 const ModalBalance = (props) => {
