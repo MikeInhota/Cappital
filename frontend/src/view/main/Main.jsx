@@ -7,6 +7,7 @@ import MainCard from "./MainCard";
 import CardCurrentBalance from "./CardCurrentBalance";
 import ModalBalance from "./ModalBalance";
 import GraficData from "../../Components/GraficData/GraficData";
+import Movimentacao from "./Movimentacao";
 
 const Main = (props) => {
 const [modalShow, setModalShow] = React.useState(false);
@@ -20,14 +21,19 @@ return (
         <div className="row">
           <div className="main col-sm">
             <Navbar />
-            <MainCard />
+            <MainCard/>
             <a onClick={()=> setModalShow(true)}>
               <CardCurrentBalance />
             </a>
             <ModalBalance show={modalShow} onHide={()=> setModalShow(false)} />
               <p className="App-intro">
+              <div class="row">
                   <div className="main col-sm">
                     <GraficData />
+                    </div>
+                    <div className="main col-sm">
+                    <Movimentacao />
+                    </div>
                   </div>
                 <Link to="/">Ir para a página Login !!</Link>
               </p>
