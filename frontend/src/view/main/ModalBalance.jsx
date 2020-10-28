@@ -25,6 +25,7 @@ const ModalBalance = (props) => {
           <div className="row">
             <div className="col-sm">
               <InputText id="inputEntrada" name="inputEntrada" value="Digite o valor"/>
+              <InputText id="inputEntrada" name="inputEntrada" value="Digite o valor"/>
             </div>
           </div>
           <div className="row">

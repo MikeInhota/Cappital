@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Main.css";
+import relogio from "../../Components/Clock/clock"  
 
 class MainCard extends Component {
   render() {
@@ -13,7 +14,7 @@ class MainCard extends Component {
                 <p className="card-text">De boa na lagoa?</p>
               </div>
               <div className="widgets col-sm">
-                <p className="card-text">Exibe a data e hora do sistema.</p>
+                <relogio/>
               </div>
             </div>
           </div>
