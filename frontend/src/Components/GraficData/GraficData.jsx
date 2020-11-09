@@ -5,12 +5,6 @@ import { Chart } from "react-google-charts";
 
 function GraficData() {
 
-  const [data, setData] = [
-    ['Linguagens', 'Quantidade'],
-    ['React', 100],
-    ['Angula', 80],
-    ['Vue', 50],
-  ]
 
   return (
         <div id="grafic">

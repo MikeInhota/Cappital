@@ -22,9 +22,9 @@ class GraficCard extends Component {
                     <div className="text-xs font-weight-bold text-uppercase mb-1">
                       <label>Movimentação</label>
                     </div>
-                        <div className="h5 mb-0 font-weight-bold">
+                        <div>
                           {<ul>
-                            { valoresTeste.map(teste => <li>{teste}</li>) }
+                            { valoresTeste.map((teste) => <li>{teste}</li>) }
                           </ul>}
                         </div>
                   </div>
