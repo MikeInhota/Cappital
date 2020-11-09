@@ -2,6 +2,6 @@ import React from 'react';
 
 export default (props) => {
     return (
-        <h1>teste</h1>
+        <p>{props.for} {props.label}</p>
     )
 }

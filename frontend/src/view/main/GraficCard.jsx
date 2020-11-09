@@ -8,7 +8,7 @@ class GraficCard extends Component {
     return (
       <>
         <div className="container cartoes">
-          <div className="col-xl-7 col-md-9 mb-2 ">
+          <div className="col-xl-8 col-md-9 mb-3 ">
             <div className="card shadow h-100">
               <div className="card-body">
                 <div className="row no-gutters align-items-center meio-card">
