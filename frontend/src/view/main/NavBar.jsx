@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Main.css";
+
 
 class Navbar extends Component {
   render() {
@@ -18,7 +20,7 @@ class Navbar extends Component {
             </button>
           </form>
           <a className="navbar-brand">
-            <span className="material-icons">account_circle</span>
+          <Link to="/"><span className="material-icons">account_circle</span></Link>
           </a>
         </nav>
       </>
