@@ -13,11 +13,11 @@ function GraficData() {
   ]
 
   return (
-        <div>
+        <div id="grafic">
           <Chart
-            width={'500px'}
+            width={'69%'}
             height={'300px'}
-            chartType="Bar"
+            chartType={"Bar"}
             data={[
                 ['1', 'entrada', 'Saida'],
                 ['2', 8175000, 8008000],
