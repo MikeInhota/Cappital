@@ -3,6 +3,7 @@ import { Modal, Button } from "react-bootstrap";
 import RadioButton from "../../Components/RadioButton/RadioButton";
 import Label from '../../Components/Label/label';
 import InputText from "../../Components/InputText/inputText";
+import "./Main.css";
 
 const titulo = 'entrada'
 const ModalBalance = (props) => {
@@ -25,7 +26,8 @@ const ModalBalance = (props) => {
           <div className="row">
             <div className="col-sm">
               <InputText id="inputEntrada" name="inputEntrada" value="Digite o valor"/>
-              <InputText id="inputEntrada" name="inputEntrada" value="Digite o valor"/>
+              <InputText id="inputSaida" name="inputSaida" value="Descrição"/>
+              <InputText id="inputData" name="inputData" value="Data"/>
             </div>
           </div>
           <div className="row">

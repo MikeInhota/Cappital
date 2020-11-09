@@ -35,3 +35,12 @@
 .boxMovimentacao{
     padding-top: 5px;
 }
+
+@media (max-width: 600px)
+{
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}  
+}
