@@ -25,9 +25,11 @@ const ModalBalance = (props) => {
         <div className="container">
           <div className="row">
             <div className="col-sm">
+              <div className="caixasInput"> 
               <InputText id="inputEntrada" name="inputEntrada" value="Digite o valor"/>
-              <InputText id="inputSaida" name="inputSaida" value="Descrição"/>
+              <InputText id="inputDescricao" name="descricao" value="Descrição"/>
               <InputText id="inputData" name="inputData" value="Data"/>
+              </div>
             </div>
           </div>
           <div className="row">
@@ -39,6 +41,7 @@ const ModalBalance = (props) => {
                 <RadioButton id="Saida" name="Saida" value="Saida"/>
                 <Label for="Saida" label="Saida"/>
             </div>
+
           </div>
         </div>
         </form>

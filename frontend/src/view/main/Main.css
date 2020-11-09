@@ -36,6 +36,29 @@
     padding-top: 5px;
 }
 
+.caixasInput{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}  
+
+.rdButon{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.caixasInput #inputDescricao{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 600px)
 {
 .container{
