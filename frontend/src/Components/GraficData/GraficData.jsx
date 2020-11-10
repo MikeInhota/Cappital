@@ -9,7 +9,7 @@ function GraficData() {
   return (
         <div id="grafic">
           <Chart
-            width={'69%'}
+            width={'100%'}
             height={'300px'}
             chartType={"Bar"}
             data={[

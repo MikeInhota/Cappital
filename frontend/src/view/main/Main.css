@@ -29,8 +29,13 @@
 
 .boxMovimentacao{
     padding-top: 5px;
-}
+    float:right;
+    width: 50%;
+    height: 300px;
+    padding-left: 2px;
+    border: none;
 
+}
 .caixasInput{
     align-items: center;
     display: flex;
@@ -48,9 +53,14 @@
 }
 
 #grafic{
-    width: 100%;
+    width: 50%;
+    height: 300px;
+    padding-right: 2px;
 }
 
+#boxDados{
+    display: flex;
+}
 
 
 

@@ -23,8 +23,10 @@ return (
               <CardCurrentBalance />
             </a>
             <ModalBalance show={modalShow} onHide={()=> setModalShow(false)} />
+            <div id="boxDados">
             <GraficData />
             <Movimentacao />
+            </div>
           </div>
         </div>
       </div>
