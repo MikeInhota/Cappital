@@ -3,9 +3,10 @@ import './App.css';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
-  render() {
+    render() {
     return (
       <div className="App">
+        
         <header>
           <nav className="navbar navbar-expand-lg fixed-top font-nav bg-tranparent-nav">
             <button className="navbar-brand nav-scroll btn btn-ligth" href="#page-top" id="link-logo"><img className="logo-size" src={""} alt="Logo Cappital"></img></button>

@@ -1,0 +1,61 @@
+.Tried{
+    position: absolute;
+width: 2000px;
+height: 2000px;
+border: 1px solid #000000;
+box-sizing: border-box;
+background-color:#ffe4c4;
+}
+
+.Tried button{
+    height:50px;
+    width: 500px;
+    margin-left:300px;
+    display:inline-block;
+    cursor: pointer;
+    border-radius:9px;
+    background-color: #352b92;   
+    resize:vertical;
+}
+
+.form-editUser{
+padding:2px;
+margin-top: 185px;
+margin-left: 100px;
+display: flex;
+width: 893px;
+height: 130px;
+flex-direction:row;
+background: #1c1747;  
+border-radius:9px;
+}
+.form-editUser input{
+    border:2px solid #57568b;
+    border-radius:5px;
+    height:40px;
+    width: 250px;
+    margin-top: 5px;
+}
+.changes{
+padding:5px;
+margin-top: 20px;
+margin-left: 100px;
+display: flex;
+width: 893px;/*
+height: 190px;*/
+flex-direction: column;
+background: #1c1747;  
+border-radius: 9px;
+}
+.changes input{
+    border:2px solid #57568b;
+    border-radius:5px;
+    height:40px;
+    width: 250px;
+    margin-top: 5px;
+    
+}
+
+h2{color:white;}
+h6{color:white;}
+h1{color:white;}
