@@ -1,8 +1,16 @@
 .Charts{
     background-color: #ffe4c4;;
-    justify-content:center;
+    justify-content:space-around;
     display:flex;
     text-align: center;
     align-items: center;
+    
  }
- 
+form{
+    justify-content:space-around;
+    display: flex;
+   weight:10px;    
+ }
+ button{
+color:red;
+ }
