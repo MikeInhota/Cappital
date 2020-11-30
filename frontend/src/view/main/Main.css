@@ -81,10 +81,21 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 9pt;
-    
+}
+
+#caixaValores{
+    width: 700px;
+    margin-left: 370px;
 
 }
 
+#valoresMovimentacoes{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    padding: 10px;
+    line-height: 50px;
+
+}
 
 @media (max-width: 600px)
 {

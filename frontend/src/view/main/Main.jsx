@@ -20,10 +20,12 @@ return (
           <div className="main col-sm">
             <Navbar />
             <MainCard/>
+            <div id="caixaValores">
             <a onClick={()=> setModalShow(true)}>
               <CardCurrentBalance />
             </a>
             <ModalBalance show={modalShow} onHide={()=> setModalShow(false)} />
+            </div>
             <div id="boxDados">
             <GraficData />
             <Movimentacao />

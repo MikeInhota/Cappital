@@ -5,7 +5,7 @@ import "./Main.css";
 
 const valoresTeste = [
 ['Ração     ', 22,50],
-['Conta Agua', 100],
+['Conta Água', 100],
 ['Internet'  , 80],
 ['Gasolina'  , 50],
 ]
@@ -20,10 +20,10 @@ return (
         <div className="text-xs font-weight-bold text-uppercase mb-1">
           <label>Movimentação</label>
         </div>
-        <div>
-          {<ul>
-            { valoresTeste.map((teste) => <li>{teste}</li>) }
-          </ul>}
+        <div id="valoresMovimentacoes">
+          {<li>
+            {valoresTeste.map((teste) => <li>{teste}</li>) }
+          </li>}
         </div>
       </div>
     </div>
