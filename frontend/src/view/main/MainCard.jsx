@@ -9,8 +9,7 @@ class MainCard extends Component {
           <div className="card-img-overlay">
             <div className="row">
               <div className="bem-vindo col-sm">
-                <h5 className="card-title">Bem vindo, NomeLogado</h5>
-                <p className="card-text">De boa na lagoa?</p>
+                <h5 className="card-title">Bem vindo, Victor</h5>
               </div>
               </div>
             </div>

@@ -28,12 +28,14 @@
 }
 
 .boxMovimentacao{
-    padding-top: 5px;
     float:right;
     width: 50%;
-    height: 300px;
+    margin-top: 0px;
+    height: 302px;
     padding-left: 2px;
     border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
 
 }
 .caixasInput{
@@ -62,8 +64,26 @@
     display: flex;
 }
 
+#cobrirBuraco{
+    
+    margin-top: 305px;
+    position: absolute;
+   width: 1140px;
+   height: 360px;
+   background-color: white;
+}
 
+#footer{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-top: 370px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    
 
+}
 
 
 @media (max-width: 600px)
@@ -72,5 +92,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    
 }  
 }

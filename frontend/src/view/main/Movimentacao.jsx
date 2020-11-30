@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
 import "./Main.css";
 
-const numbers = [1, 2, 3, 4, 5];
 
 
 const valoresTeste = [
-['Ração', 22,50],
+['Ração     ', 22,50],
 ['Conta Agua', 100],
-['Internet', 80],
-['Gasolina', 50],
+['Internet'  , 80],
+['Gasolina'  , 50],
 ]
 
 class GraficCard extends Component {
