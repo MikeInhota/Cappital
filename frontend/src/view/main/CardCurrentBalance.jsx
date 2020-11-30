@@ -7,8 +7,8 @@ class CardCurrentBalance extends Component {
     return (
       <>
         <div className="container cartoes pl-0">
-          <div className="col-xl-6 col-md-0 mb-0 pl-0">
-            <div className="card shadow h-100">
+          <div className="col-xl-20 col-md-30 mb-0 pl-0">
+            <div className="card shadow h-0">
               <div className="card-body">
                 <div className="row no-gutters align-items-center meio-card">
                   <div className="col-md-1">
