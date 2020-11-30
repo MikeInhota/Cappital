@@ -4,10 +4,10 @@ import "./Main.css";
 
 
 const valoresTeste = [
-['Ração     ', 22,50],
-['Conta Água', 100],
-['Internet'  , 80],
-['Gasolina'  , 50],
+['Ração     ', ' 22,50'],
+['Conta Água', ' 100'],
+['Internet'  , ' 80'],
+['Gasolina'  , ' 50'],
 ]
 
 class GraficCard extends Component {
